@@ -113,3 +113,25 @@ MIT # Add your Azure AD credentials here
 # AZURE_AD_CLIENT_ID=your-azure-client-id
 # AZURE_AD_CLIENT_SECRET=your-azure-client-secret
 # AZURE_AD_TENANT_ID=your-azure-tenant-id
+
+
+```
+.env.local
+```
+
+```
+# MongoDB Connection
+MONGODB_URI=mongodb://localhost:27017/device-management
+
+# NextAuth Configuration
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=ITfK4TxeK5aFJN8TSOZbYFNr6jJBOCaGDN9zHEPsRdQ=
+
+# Add your Azure AD credentials here if needed
+# AZURE_AD_CLIENT_ID=your-azure-client-id
+# AZURE_AD_CLIENT_SECRET=your-azure-client-secret
+# AZURE_AD_TENANT_ID=your-azure-tenant-id
+
+# OpenAI API Configuration
+OPENAI_API_KEY=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
+```
